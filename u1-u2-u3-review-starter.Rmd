@@ -22,6 +22,10 @@ solubility_hardness <- read_csv("data/solubility-hardness.csv")
 
 ### Exercise 1
 
+```{r, inspect-sands-and-minerals}
+glimpse(sands-minerals)
+
+```
 
 
 ### Exercise 2
