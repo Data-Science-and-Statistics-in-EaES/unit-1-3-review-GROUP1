@@ -1,8 +1,8 @@
 ---
 title: "Unit 1 - 3 Review Starter"
-author: "TALC group 1"
+author: "TALC group 1"   
 date: "10/4/2021"
-output: html_document
+output: html_document 
 ---
 
 ### Load packages and data
@@ -22,10 +22,7 @@ solubility_hardness <- read_csv("data/solubility-hardness.csv")
 
 ### Exercise 1
 
-Remove this text, and add your answer for Exercise 1 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+
 
 ### Exercise 2
 
