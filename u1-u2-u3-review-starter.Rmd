@@ -29,14 +29,23 @@ names(sand_minerals)
 
 ```
 
-there are `r nrow(sand_minerals)` and `r ncol(sand_minerals)` 
+There are `r nrow(sand_minerals)` rows and `r ncol(sand_minerals)` columns
 
 ### Exercise 2
 
-Remove this text, and add your answer for Exercise 2 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r inspect-other-dataframes}
+
+glimpse(location_descriptions) 
+glimpse(density) 
+glimpse(solubility_hardness)
+
+
+
+```
+
+In location_descriptions there are `r nrow(location_descriptions)` rows and `r ncol(location_descriptions)`, in density there are `r nrow(density)` rows and `r ncol(density)`, and in solubility_hardness there are `r nrow(solubility_hardness)` rows and `r ncol(solubility_hardness)`.
+
+For location_descriptions, the rows are the location number and the location description. For density, the rows are the mineral names and their density. For solubility_hardness, the rows are the mineral names, the solubility, and the hardness.
 
 ### Exercise 3
 
