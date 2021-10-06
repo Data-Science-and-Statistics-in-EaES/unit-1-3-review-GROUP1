@@ -71,12 +71,40 @@ glimpse(sand_mineral_properties)
 
 ### Exercise 4
 
-Remove this text, and add your answer for Exercise 4 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r - mineral-locations}
+sand_mineral_properties %>%
+  count(location)
 
+```
+
+```{r - sandmineralsselectedlocations}
+sand_mineral_properties %>%
+slice(14:24) 
+```
+
+```{r - sandmineraldensity}
+sand_mineral_properties %>%
+  arrange(desc(density)) %>%
+slice(13:23)
+
+```
+
+
+```{r - sandmineraldensityselected}
+sand_mineral_properties %>%
+  select(1, 5) %>%
+slice(18:23)
+```
+
+```{r - sandmineralsimportantvalues}
+sand_mineral_properties %>%
+  filter(!is.na(hardness)) %>%
+arrange(desc(density)) %>%
+slice(1:5)
+
+```
 ### Exercise 5
+
 
 Remove this text, and add your answer for Exercise 5 here.
 Add code chunks as needed.
