@@ -89,7 +89,6 @@ slice(13:23)
 
 ```
 
-
 ```{r - sandmineraldensityselected}
 sand_mineral_properties %>%
   select(1, 5) %>%
@@ -104,8 +103,6 @@ slice(1:5)
 
 ```
 ### Exercise 5
-
-
 Remove this text, and add your answer for Exercise 5 here.
 Add code chunks as needed.
 Don't forget to label your code chunk.
