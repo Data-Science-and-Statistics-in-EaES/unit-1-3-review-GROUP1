@@ -37,9 +37,10 @@ There are `r nrow(sand_minerals)` rows and `r ncol(sand_minerals)` columns
 
 glimpse(location_descriptions) 
 glimpse(density) 
-glimpse(solubility_hardness)
-
-
+glimpse(solubility_hardness) 
+names(location_descriptions) 
+names(density) 
+names(solubility_hardness) 
 
 ```
 
