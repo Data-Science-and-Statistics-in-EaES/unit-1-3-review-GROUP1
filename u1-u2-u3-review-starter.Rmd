@@ -50,10 +50,24 @@ For location_descriptions, the rows are the location number and the location des
 
 ### Exercise 3
 
-Remove this text, and add your answer for Exercise 3 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r join-mineral-properties}
+sand_mineral_density <- density %>%
+  left_join(sand_minerals)
+
+glimpse(sand_mineral_density)
+
+```
+
+This new table appears to have 23 outputs (rows), which is the same as the number of outputs for sand_minerals.
+
+```{r sand-mineral-properties}
+
+sand_mineral_properties <- solubility_hardness %>%
+  left_join(sand_mineral_density)
+
+glimpse(sand_mineral_properties)
+```
+
 
 ### Exercise 4
 
