@@ -104,7 +104,7 @@ slice(1:5)
 ```
 ### Exercise 5
 
-Deleted exercise 1 text as test of fork.
+Test again
 
 ### Exercise 6
 
